@@ -2,7 +2,7 @@
 #grid {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: repeat(5, 124px);
+	grid-template-rows: 124px 124px 124px 124px 124px;
 	gap: 5px;
 }
 
