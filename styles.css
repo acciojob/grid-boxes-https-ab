@@ -1,1 +1,63 @@
 /*  your css code here. If applicable */
+#grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(5, 80px);
+	gap: 5px;
+}
+
+.item {
+	background-color: green;
+	color: white;
+	font-size: 20px;
+}
+
+#item1 {
+	grid-column: 1 / 5;
+	grid-row: 1;
+}
+
+#item2 {
+	grid-column: 1;
+	grid-row: 2 / 6;
+}
+
+#item3 {
+	grid-column: 2 ;
+	grid-row: 2;
+}
+
+#item4 {
+	grid-column: 3 / 6;
+	grid-row: 2;
+}
+
+#item5 {
+	grid-column: 2 / 4;
+	grid-row: 3;
+}
+
+#item6 {
+	grid-column: 4;
+	grid-row: 3;
+}
+
+#item7 {
+	grid-column: 2;
+	grid-row: 4;
+}
+
+#item8 {
+	grid-column: 3;
+	grid-row: 4;
+}
+
+#item9 {
+	grid-column: 4;
+	grid-row: 4;
+}
+
+#item10 {
+	grid-column: 2 / 6;
+	grid-row: 5;
+}
